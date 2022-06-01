@@ -1,0 +1,5 @@
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/obj/Debug/net6.0/Infra.csproj.AssemblyReference.cache
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/obj/Debug/net6.0/Infra.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/obj/Debug/net6.0/Infra.AssemblyInfoInputs.cache
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/obj/Debug/net6.0/Infra.AssemblyInfo.cs
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/obj/Debug/net6.0/Infra.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/bin/Debug/net6.0/Database.deps.json
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/bin/Debug/net6.0/Database.runtimeconfig.json
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/bin/Debug/net6.0/Database.dll
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/bin/Debug/net6.0/Database.pdb
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/bin/Debug/net6.0/Domain.dll
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/bin/Debug/net6.0/Domain.pdb
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/Database.csproj.AssemblyReference.cache
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/Database.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/Database.csproj.CoreCompileInputs.cache
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/Database.csproj.CopyComplete
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/Database.dll
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/refint/Database.dll
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/Database.pdb
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/Database.genruntimeconfig.cache
+/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/obj/Debug/net6.0/ref/Database.dll
