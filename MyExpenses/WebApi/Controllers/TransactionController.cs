@@ -1,6 +1,7 @@
 ﻿using Database.Data;
 using Database.Interfaces;
 using Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.ViewModels;
 
@@ -18,6 +19,7 @@ public class TransactionController : ApiController
         _transactionRepository = transactionRepository;
     }
 
+    [Authorize]
     [HttpPost]
     public IActionResult Post([FromBody] TransactionVm transaction)
     {
@@ -30,6 +32,7 @@ public class TransactionController : ApiController
         return Ok();
     }
 
+    [Authorize]
     [HttpGet("ById")]
     public IActionResult GetById(Guid id)
     {
@@ -43,6 +46,7 @@ public class TransactionController : ApiController
 
     }
 
+    [Authorize]
     [HttpPut("ById")]
     public IActionResult Put(Guid id, [FromBody] TransactionVm vm)
     {
@@ -66,6 +70,7 @@ public class TransactionController : ApiController
 
     }
 
+    [Authorize]
     [HttpDelete("ById")]
     public IActionResult DeleteById(Guid id)
     {
@@ -79,6 +84,7 @@ public class TransactionController : ApiController
         return Ok();
     }
 
+    [Authorize]
     [HttpGet]
     public IActionResult GetAll()
     {

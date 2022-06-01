@@ -8,8 +8,15 @@
 
   <ItemGroup>
     <None Remove="Entities\" />
+    <None Remove="JWT\" />
+    <None Remove="Microsoft.Extensions.Identity.Core" />
+    <None Remove="Microsoft.AspNetCore.Identity" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
+    <Folder Include="JWT\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.5" />
   </ItemGroup>
 </Project>

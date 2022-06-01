@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "ACskBETDuWPpLrMu4djArXDkn4TQT0hUrrKBUCN87JCDQ9ZS/Si69oWUJhyhv0Fj8hHED3CmiZYg/pMBKsZXFw==",
+  "dgSpecHash": "ApRpeHgiL2+8I6R6XD+ky4e8CqlAwmgX8T1bJ494wf+W5LIwF5YhBDI61kkw+HpW6/09fnYJd3XstOqp+5lasg==",
   "success": true,
   "projectFilePath": "/Users/guilhermebernava/Documents/Pessoal/MyExpenses/Infra/DbContext/Database/Database.csproj",
   "expectedPackageFiles": [
     "/Users/guilhermebernava/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.aspnet.identity.core/2.2.3/microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.aspnetcore.authorization/6.0.5/microsoft.aspnetcore.authorization.6.0.5.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.5/microsoft.aspnetcore.cryptography.internal.6.0.5.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.5/microsoft.aspnetcore.cryptography.keyderivation.6.0.5.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.5/microsoft.aspnetcore.identity.entityframeworkcore.6.0.5.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.aspnetcore.metadata/6.0.5/microsoft.aspnetcore.metadata.6.0.5.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
@@ -16,15 +24,29 @@
     "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.identity.core/6.0.5/microsoft.extensions.identity.core.6.0.5.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.identity.stores/6.0.5/microsoft.extensions.identity.stores.6.0.5.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
-    "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/npgsql/6.0.4/npgsql.6.0.4.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.4/npgsql.entityframeworkcore.postgresql.6.0.4.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/guilhermebernava/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "/Users/guilhermebernava/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/guilhermebernava/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/guilhermebernava/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

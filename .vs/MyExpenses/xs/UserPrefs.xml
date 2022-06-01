@@ -1,28 +1,15 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.Infra.NativeInjection FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WebApi.WebApi PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infra/DbContext/DbContext.cs">
-    <Files>
-      <File FileName="MyExpenses/WebApi/Program.cs" Line="17" Column="1" />
-      <File FileName="Infra/DbContext/DbContext.cs" Line="14" Column="62" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MyExpenses" expanded="True">
-            <Node name="Domain" expanded="True" />
-            <Node name="Infra" expanded="True">
-              <Node name="Infra" expanded="True">
-                <Node name="DbContext.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="WebApi" expanded="True">
-              <Node name="WebApi" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="MyExpenses" expanded="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
